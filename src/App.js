@@ -1,10 +1,15 @@
 import React from 'react';
 import Header from './components/Header/HeaderMain';
+import MainBody from './components/Body/MainBody';
+import { PlayerProvider } from './components/Api/PlayerContext';
 
-export default function App() {
+function App() {
     return (
-        <main>
-            <Header />
-        </main>
-    )
-}
+      <PlayerProvider>
+        <Header />
+        <MainBody />
+      </PlayerProvider>
+    );
+  }
+  
+  export default App;
