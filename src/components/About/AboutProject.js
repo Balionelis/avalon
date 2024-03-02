@@ -5,7 +5,7 @@ import dirtbg from '../images/dirtbackground.png'
 
 export default function AboutProject() {
     return (
-        <aboutme>
+        <div>
             <div className='floor'><img src={floor} alt='floor'/></div>
             <div className='background'><img src={dirtbg} alt='dirtbg'/></div>
 
@@ -21,6 +21,6 @@ export default function AboutProject() {
                     <li>Confirm and log in to start your adventure today!</li>
                 </ul>
             </div>
-        </aboutme>
+        </div>
     );
 }
