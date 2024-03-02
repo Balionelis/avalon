@@ -10,11 +10,11 @@ export default function MainBody() {
 
   return (
     <div>
-      <img id='bg-picture' src={backgroud} />
+      <img id='bg-picture' src={backgroud} alt='background' />
       <div className='middle-content'>
-            <img id='logo' src={logo} />
+            <img id='logo' src={logo} alt='logo' />
             <h1 id='mid-text'>The Minecraft SANDBOX MMORPG</h1>
-            <img id='line' src={line} />
+            <img id='line' src={line} alt='line' />
             <h2 id='mid-text2'>play.avalon.com - <span id='bold-number'>{playersNow}</span> Players Online</h2>
             <button id='play-button'>BEGIN YOUR JOURNEY</button>
       </div>

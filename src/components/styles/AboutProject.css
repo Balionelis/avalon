@@ -1,8 +1,59 @@
+#bold-text {
+    font-weight: 700;
+}
+
 .floor {
-    position: fixed;
+    position: absolute;
     top: 102vh;
     left: 45vh;
     transform: scale(1.8);
+}
+
+.background img {
+    position: absolute;
+    top: 210%;
+    z-index: -1;
+    transform: scale(3.5);
+    filter: blur(1px);
+}
+
+.contents {
+    position: absolute;
+    top: 240%;
+    left: 20%;
+}
+
+#choose-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #88cc42;   
+}
+
+#explore-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;
+    width: 60%;
+}
+
+#how-to-join-text {
+    margin-top: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#how-to-join {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 768px) {
