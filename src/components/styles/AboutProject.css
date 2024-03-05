@@ -2,6 +2,11 @@
     font-weight: 700;
 }
 
+#bold-text:hover {
+    color: #88cc42;
+    cursor: pointer;
+}
+
 .floor {
     position: absolute;
     top: 102vh;
